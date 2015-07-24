@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D842E458-0A95-490D-820A-B8803FEBDD84</string>
 	<key>IDESourceControlProjectName</key>
-	<string>tagument</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EE6706D23956D94DE70568BAC00CED588B38D7BC</key>
 		<string>github.com:AndreaCirilloAC/_tagument.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>tagument.xcodeproj</string>
+	<string>tagument.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EE6706D23956D94DE70568BAC00CED588B38D7BC</key>
