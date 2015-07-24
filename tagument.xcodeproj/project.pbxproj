@@ -12,6 +12,7 @@
 		91398F901B62E1A600835271 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91398F8F1B62E1A600835271 /* Images.xcassets */; };
 		91398F931B62E1A600835271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91398F911B62E1A600835271 /* Main.storyboard */; };
 		91398F9F1B62E1A700835271 /* tagumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91398F9E1B62E1A700835271 /* tagumentTests.swift */; };
+		91398FA91B62E1C800835271 /* doc_functions.py in Resources */ = {isa = PBXBuildFile; fileRef = 91398FA81B62E1C800835271 /* doc_functions.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,8 @@
 		91398F981B62E1A700835271 /* tagumentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tagumentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91398F9D1B62E1A700835271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91398F9E1B62E1A700835271 /* tagumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tagumentTests.swift; sourceTree = "<group>"; };
+		91398FA81B62E1C800835271 /* doc_functions.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = doc_functions.py; path = ../../../../../../Desktop/doc_functions.py; sourceTree = "<group>"; };
+		91398FAA1B62E1DB00835271 /* program_flow.R */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; name = program_flow.R; path = ../../../../../../Desktop/program_flow.R; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				91398F8D1B62E1A600835271 /* ViewController.swift */,
 				91398F8F1B62E1A600835271 /* Images.xcassets */,
 				91398F911B62E1A600835271 /* Main.storyboard */,
+				91398FA81B62E1C800835271 /* doc_functions.py */,
+				91398FAA1B62E1DB00835271 /* program_flow.R */,
 				91398F891B62E1A600835271 /* Supporting Files */,
 			);
 			path = tagument;
@@ -190,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91398F901B62E1A600835271 /* Images.xcassets in Resources */,
+				91398FA91B62E1C800835271 /* doc_functions.py in Resources */,
 				91398F931B62E1A600835271 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
