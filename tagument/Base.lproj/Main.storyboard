@@ -672,14 +672,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="642" height="501"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <searchField wantsLayer="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7v-M1-Dtb">
-                                <rect key="frame" x="20" y="459" width="602" height="17"/>
-                                <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" title="doc;{tag1,tag2,...tagn}" drawsBackground="YES" usesSingleLineMode="YES" id="PcZ-8s-oU4">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="gridColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </searchFieldCell>
-                            </searchField>
                             <scrollView fixedFrame="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMf-6J-345">
                                 <rect key="frame" x="20" y="20" width="320" height="423"/>
                                 <clipView key="contentView" misplaced="YES" id="Lk9-6N-wWD">
@@ -805,12 +797,29 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <searchField wantsLayer="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W7v-M1-Dtb">
+                                <rect key="frame" x="20" y="464" width="609" height="17"/>
+                                <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" title="doc;{tag1,tag2,...tagn}" drawsBackground="YES" usesSingleLineMode="YES" id="PcZ-8s-oU4">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </searchFieldCell>
+                                <connections>
+                                    <action selector="user_search:" target="XfG-lQ-9wD" id="QVV-1Y-KOB"/>
+                                </connections>
+                            </searchField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="search_results" destination="hMf-6J-345" id="2S3-jW-m7i"/>
+                        <outlet property="selected_name" destination="4kA-h2-kgY" id="lmP-5h-kk1"/>
+                        <outlet property="selected_note" destination="wb5-Z6-VBp" id="egv-3R-PI6"/>
+                        <outlet property="selected_tag" destination="23y-Sy-UPz" id="cZf-qV-9Ey"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="1216.5"/>
+            <point key="canvasLocation" x="156" y="1040.5"/>
         </scene>
     </scenes>
 </document>

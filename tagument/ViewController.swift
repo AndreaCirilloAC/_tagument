@@ -10,6 +10,19 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBAction func user_search(sender: NSSearchField) {
+        
+    }
+    @IBOutlet weak var search_results: NSScrollView!
+    
+    @IBOutlet weak var selected_name: NSTextField!
+    
+
+    @IBOutlet weak var selected_tag: NSTextField!
+    
+    
+    @IBOutlet weak var selected_note: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
